@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assest/favicon.ico">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="./css/owfont-regular.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="player_container">
+
+                <div class="player">
+                    <div class="player_menu">
+
+                        <div class="prev_play icon_music"></div>
+                        <div class="play_music icon_music"></div>
+                        <div class="next_play icon_music"></div>
+
+                        <div class="time_music">
+                            <div class="current">0:00</div>
+                            <div class="divider">/</div>
+                            <div class="length">04:37</div>
+                        </div>
+
+                        <div>
+                            <div class="name_music">I got love</div>
+                            <div class="author_music">MiyaGi & Эндшпиль feat. Рем Дигга</div>
+                        </div>
+                        <div class="value_container">
+                            <div class="value_icon value_icon_play"></div>
+                            <input type="range" id="value-bar" min="0" max="1" value="0.7" step="0.1">
+                        </div>
+
+                    </div>
+                    <input type="range" id="progress-bar" min="0" value="0">
+                </div>
+                <ul class="play-list">
+                </ul>
+            </div>
+
+            <div class="weather">
+                <input type="text" class="weather_city" value="Minsk" placeholder="[Enter city]">
+                <hr>
+                <div class="weather-icon owf owf-804"></div>
+                <div class="weather-error"></div>
+                <div class="description-container">
+                    <span class="temperature"></span>
+                    <span class="weather-description"></span>
+                </div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+
+            </div>
+
+        </header>
+
+        <main class="main">
+            <div class="arrow">
+                <button class="slide slide-prev"></button>
+            </div>
+
+
+            <div class="date">
+                <div class="time"></div>
+                <div class="day"></div>
+                <div class="greetings"></div>
+                <input class="name" type="text" value="" placeholder="[Enter name]">
+            </div>
+
+            <div class="arrow">
+                <button class="slide slide-next"></button>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="settings">
+                <div class="lang">en</div>
+                <input class="none" value=""></input>
+            </div>
+            <div class="content">
+                <div class="quote_button"><span class="button"></span></div>
+                <div class="text"></div>
+                <div class="author"></div>
+            </div>
+            <div class="block">
+                <a href="https://github.com/mishashmidt0" class="githab"></a>
+                <div class="text_footer">2021</div>
+                <a class="rsschool" href="https://rs.school/js/">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
